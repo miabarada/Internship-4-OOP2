@@ -1,12 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Internship_4_OOP2.Domain.Common.Model
+﻿namespace Internship_4_OOP2.Domain.Common.Model
 {
-    internal class GetByRequest
+    public class GetByIdRequest
     {
+        public int Id { get; init; }
+
+        public GetByIdRequest(int id)
+        {
+            Id = id;
+        }
+
+        public GetByIdRequest()
+        {
+
+        }
+    }
+
+    public class GetByIdRequest<T>
+    {
+        public T Id { get; set; }
+
+        public GetByIdRequest(T id)
+        {
+            Id = id;
+        }
     }
 }

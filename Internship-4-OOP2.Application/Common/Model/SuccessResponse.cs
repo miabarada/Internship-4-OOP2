@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Internship_4_OOP2.Application.Common.Model
+﻿namespace Internship_4_OOP2.Application.Common.Model
 {
-    internal class SuccessResponse
+    public class SuccessResponse
     {
+        public bool IsSuccess { get; init; }
+
+        public SuccessResponse()
+        {
+
+        }
+
+        public SuccessResponse(bool isSuccess)
+        {
+            IsSuccess = isSuccess;
+        }
     }
 }

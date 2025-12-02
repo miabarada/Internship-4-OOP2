@@ -8,6 +8,6 @@ namespace Internship_4_OOP2.Domain.Persistence.Common
         Task InsertAsync(TEntity entity);
         void Update(TEntity entity);
         Task DeleteAsync(Tid id);
-        void Delete(TEntity entity);
+        void Delete(TEntity? entity);
     }
 }

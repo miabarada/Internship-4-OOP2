@@ -1,6 +1,7 @@
 ﻿using Internship_4_OOP2.Domain.Common.Model;
 using Internship_4_OOP2.Domain.Common.Validation;
 using Internship_4_OOP2.Domain.Common.Validation.ValidationItems;
+using Internship_4_OOP2.Domain.Persistence.Users;
 
 namespace Internship_4_OOP2.Domain.Entities.Users
 {
